@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">请假/调休</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="type_qingjia">请假单</string>
+    <string name="type_tiaoxiu">调休单</string>
+    <string name="activity_label_contacts">联系人管理</string>
+    
+    
+    <string name="html">
+        <Data><![CDATA[ <div><br>
+</div>
+<div><includetail>
+    <div style="font:Verdana normal 14px;color:#000;">
+        <div>
+            <table border="1" cellpadding="0" cellspacing="0" class="" width="648" style="border-collapse: collapse; width: 486pt; font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif !important;">
+                <colgroup><col span="7" width="72" style="width: 54pt;"><col width="144" style="width: 108pt;"></colgroup>
+                <tbody>
+                    <tr height="38" style="height: 28.5pt;">
+                        <td class="xl72" colspan="8" height="38" width="648" style="font-size: 20pt; height: 28.5pt; width: 486pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; text-decoration: underline; vertical-align: middle; border: 1pt solid windowtext; white-space: nowrap; text-align: center;">##KEY_TYPE_NAME##</td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                        <td class="xl66" colspan="8" height="23" style="font-size: 11pt; height: 17.25pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; border: 1pt solid windowtext; white-space: nowrap; text-align: center;">
+                        <span lang="EN-US">##KEY_DATE##</font></span>
+                        </td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                        <td class="xl65" height="23" style="font-size: 11pt; height: 17.25pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">部&nbsp; 门</td>
+                        <td class="xl66" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">研发中心</td>
+                        <td class="xl65" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">姓&nbsp; 名</td>
+                        <td class="xl66" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">##KEY_NICKNAME##</td>
+                        <td class="xl65" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">职&nbsp; 务</td>
+                        <td class="xl67" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap;">　</td>
+                        <td class="xl66" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">工&nbsp; 号</td>
+                        <td class="xl67" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap;">　</td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                        <td class="xl65" height="69" rowspan="3" style="font-size: 11pt; height: 51.75pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">请假原因</td>
+                        <td class="xl66" colspan="3" rowspan="3" style="font-size: 11pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; border: 1pt solid windowtext; white-space: nowrap; text-align: center;">私事调休</td>
+                        <td class="xl65" rowspan="3" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">相关证明</td>
+                        <td class="xl66" colspan="3" rowspan="3" style="font-size: 11pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; border: 1pt solid windowtext; white-space: nowrap; text-align: center;">　</td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                    </tr>
+                    <tr height="44" style="height: 33pt;">
+                        <td class="xl65" height="44" style="font-size: 11pt; height: 33pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">工作交接人</td>
+                        <td class="xl66" colspan="3" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">##KEY_TAKEORVER##</td>
+                        <td class="xl65" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">其他说明</td>
+                        <td class="xl69" colspan="3" width="288" style="font-size: 11pt; border: 1pt solid windowtext; width: 216pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; text-align: center;">如有工作上紧急事务，<br>
+                        直接电话联系本人（
+                        <span style="white-space: nowrap;">##KEY_PHONE_NUMBER##</span>
+                        ）</td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                        <td class="xl71" height="46" rowspan="2" width="72" style="font-size: 11pt; height: 34.5pt; border: 1pt solid windowtext; width: 54pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; text-align: center;">计划请假时间
+                        <span lang="EN-US"></span>
+                        </td>
+                        <td class="xl69" colspan="3" width="216" style="font-size: 11pt; border: 1pt solid windowtext; width: 162pt; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; text-align: center;">由##KEY_START_DATE## 至 ##KEY_END_DATE##</font></td>
+                        <td class="xl65" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">销假时间</td>
+                        <td class="xl66" colspan="3" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">
+                        <span lang="EN-US">&nbsp;<font class="font6" style="font-size: 11pt; text-decoration: underline;">&nbsp; &nbsp; </font><font class="font5" style="font-size: 11pt;">月</font><font class="font6" style="font-size: 11pt; text-decoration: underline;">&nbsp; &nbsp; </font><font class="font5" style="font-size: 11pt;">日</font><font class="font6" style="font-size: 11pt; text-decoration: underline;">&nbsp; &nbsp; </font><font class="font5" style="font-size: 11pt;">时</font></span>
+                        </td>
+                    </tr>
+                    <tr height="23" style="height: 17.25pt;">
+                        <td class="xl66" colspan="3" height="23" style="font-size: 11pt; height: 17.25pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">##KEY_LEAVE##</font></td>
+                        <td class="xl65" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; font-weight: 700; vertical-align: middle; white-space: nowrap; text-align: center;">实假时间</td>
+                        <td class="xl66" colspan="3" style="font-size: 11pt; border: 1pt solid windowtext; padding-top: 1px; padding-right: 1px; padding-left: 1px; vertical-align: middle; white-space: nowrap; text-align: center;">请假<font class="font6" style="font-size: 11pt; text-decoration: underline;">&nbsp; / &nbsp;</font><font class="font5" style="font-size: 11pt;">天</font><font class="font6" style="font-size: 11pt; text-decoration: underline;">&nbsp; &nbsp; </font><font class="font5" style="font-size: 11pt;">时<br>
+                        <br>
+                        </font></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <span>
+                <div style="margin: 10px; font-size: 13px;"><br>
+                </div>
+            </span>
+        </div>
+    </div>
+    <!--<![endif]--></includetail>
+</div>
+<style></style> ]]> </Data>
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
