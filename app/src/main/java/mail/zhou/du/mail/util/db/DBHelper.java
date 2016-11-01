@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.util.db;
 
 import android.content.Context;
 import android.database.DatabaseErrorHandler;

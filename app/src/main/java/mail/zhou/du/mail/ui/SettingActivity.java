@@ -1,19 +1,20 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.ui;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import mail.zhou.du.mail.util.ContactsManager;
+import mail.zhou.du.mail.R;
+import mail.zhou.du.mail.util.UserManager;
 
 /**
  * Created by zhou on 16/7/6.
@@ -65,7 +66,7 @@ public class SettingActivity extends AppCompatActivity {
         takeOverTv.setText(UserManager.get(this).getTakeOver());
         phoneNumberTv.setText(UserManager.get(this).getPhoneNumber());
         nickNameTv.setText(UserManager.get(this).getNickName());
-        contactTv.setText("已选择"+ContactsManager.get().getCheckedContacts().size()+"个");
+        contactTv.setText("已选择"+ ContactsManager.get().getCheckedContacts().size()+"个");
     }
 
     public void changeUsername(View view) {

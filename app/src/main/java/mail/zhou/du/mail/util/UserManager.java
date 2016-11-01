@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

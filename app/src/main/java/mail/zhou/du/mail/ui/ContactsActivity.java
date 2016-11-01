@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.ui;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -19,6 +19,11 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import mail.zhou.du.mail.util.db.Contact;
+import mail.zhou.du.mail.adapter.ContactListAdapter;
+import mail.zhou.du.mail.util.ContactsManager;
+import mail.zhou.du.mail.R;
 
 /**
  * Created by zhou on 16/7/7.

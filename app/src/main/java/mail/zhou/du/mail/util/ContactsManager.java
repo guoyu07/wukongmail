@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.util;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,10 +6,14 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import mail.zhou.du.mail.App;
+import mail.zhou.du.mail.util.db.Contact;
+import mail.zhou.du.mail.util.db.ContactDB;
+import mail.zhou.du.mail.util.db.DBHelper;
 
 /**
  * Created by zhou on 16/7/7.

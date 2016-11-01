@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -9,6 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.CheckedTextView;
 
 import java.util.List;
+
+import mail.zhou.du.mail.util.db.Contact;
 
 /**
  * Created by zhou on 16/7/7.

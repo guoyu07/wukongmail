@@ -20,7 +20,7 @@
  */
 
 
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.util;
 
 import android.text.TextUtils;
 

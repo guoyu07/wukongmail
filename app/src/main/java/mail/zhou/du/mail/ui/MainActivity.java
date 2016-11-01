@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.ui;
 
 
 import android.app.DatePickerDialog;
@@ -26,6 +26,11 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 
 import java.util.Calendar;
+
+import mail.zhou.du.mail.util.ContactsManager;
+import mail.zhou.du.mail.util.MailSender;
+import mail.zhou.du.mail.R;
+import mail.zhou.du.mail.util.UserManager;
 
 public class MainActivity extends AppCompatActivity {
     private Context mContext = this;

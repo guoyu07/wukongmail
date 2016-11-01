@@ -1,4 +1,4 @@
-package mail.zhou.du.mail;
+package mail.zhou.du.mail.util.db;
 
 /**
  * Created by zhou on 16/7/7.
